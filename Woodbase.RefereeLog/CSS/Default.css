@@ -1,0 +1,66 @@
+﻿body
+{
+    font-size: 11px;
+    font-family: verdana;
+}
+
+a
+{
+    color: #000;
+}
+
+#page-wrapper
+{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#top-level-menu
+{
+    list-style-type: none;
+    padding: 5px 0;
+    margin: 0;
+}
+
+#top-level-menu li
+{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#top-level-menu li a
+{
+    display: block;
+    text-decoration: none;
+}
+
+#top-level-menu li a:hover
+{
+    text-decoration: underline;
+}
+
+#top-level-menu li a.active
+{
+    text-decoration: underline;
+}
+
+#header
+{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#entry-form div.label
+{
+    width: 150px;
+}
+#entry-form div, #entry-form input
+{
+    display: inline-block;
+}
+
+#entry-form .score-field{ width: 40px;}
+
+.full-width {
+    width: 1024px;
+}
